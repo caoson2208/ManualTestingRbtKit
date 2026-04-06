@@ -8,9 +8,9 @@
 ## 📁 Cấu Trúc Thư Mục
 
 ```
-manual-testing-rbt-kit/
+ManualTestingRbtKit/
 │
-├── manual_testing_guidle.md                        ← File bạn đang đọc
+├── MANUAL_TESTING_GUIDLE.md                        ← File bạn đang đọc
 ├── README.md                            ← Tổng quan ngắn về framework
 │
 ├── plans/                               ← Prompt templates cho từng bước
