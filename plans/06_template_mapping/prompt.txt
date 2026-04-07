@@ -16,17 +16,14 @@
 
 ## Bảng chuẩn cần có các cột sau:
 
-| TC ID | Module | Risk Level | Test Title | Pre-Condition | Test Steps | Expected Result | Priority | Test Data |
+| TC ID | Test Case Title | Pre-Condition | Test Step | Test Data | Expected Result | Priority | Actual Result | Notes
 
 ## Quy tắc khi lập bảng:
 
 ### TC ID
-- Format thống nhất: `[DỰ_ÁN]_[MODULE]_TC_[SỐ]`
-- Ví dụ: `CRM_CUST_TC_001`, `CRM_CUST_TC_002`...
+- Format thống nhất: `TC_[SỐ]`
+- Ví dụ: `TC_01`, `TC_02`...
 - Tăng dần liên tục, không nhảy số
-
-[Tùy chỉnh: Nếu bạn muốn quy tắc ID khác, thay thế format ở trên.
-Ví dụ: `TC_LOGIN_001`, `TC_REG_001`...]
 
 ### Test Steps & Expected Result
 - **PHẢI đánh số thứ tự** nếu có nhiều bước

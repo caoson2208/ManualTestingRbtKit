@@ -44,7 +44,7 @@ Sử dụng skill này khi:
 **Mục đích:** Thiết lập vai trò Senior QA Engineer và nạp bối cảnh dự án.
 
 **Agent phải:**
-1. Đọc prompt template tại `plan/manual/01_context_and_roleplay/prompt.txt`
+1. Đọc prompt template tại `plans/01_context_and_roleplay/prompt.txt`
 2. Yêu cầu user cung cấp:
    - Tên dự án / tính năng
    - Mô tả hệ thống hiện tại
@@ -62,7 +62,7 @@ Sử dụng skill này khi:
 **Mục đích:** Phân tích tài liệu để phát hiện điểm mờ, thiếu sót, mâu thuẫn.
 
 **Agent phải:**
-1. Đọc prompt template tại `plan/manual/02_analysis_and_qna/prompt.txt`
+1. Đọc prompt template tại `plans/02_analysis_and_qna/prompt.txt`
 2. Xác định các luồng:
    - Happy Path (luồng chính)
    - Alternate Paths (luồng rẽ nhánh)
@@ -86,7 +86,7 @@ Sử dụng skill này khi:
 **Mục đích:** Chia tính năng phức tạp thành các Module / Sub-module nhỏ, dễ quản lý.
 
 **Agent phải:**
-1. Đọc prompt template tại `plan/manual/03_decomposition/prompt.txt`
+1. Đọc prompt template tại `plans/03_decomposition/prompt.txt`
 2. Phân rã theo 1 trong 2 cách:
    - **Theo UI:** Header, Data Table, Form popup, Sidebar...
    - **Theo luồng:** Flow tạo mới, Flow chỉnh sửa, Flow xóa...
@@ -102,7 +102,7 @@ Sử dụng skill này khi:
 **Mục đích:** Thiết lập ma trận truy vết để đảm bảo 100% requirements được phủ test scenarios.
 
 **Agent phải:**
-1. Đọc prompt template tại `plan/manual/04_traceability/prompt.txt`
+1. Đọc prompt template tại `plans/04_traceability/prompt.txt`
 2. Map mỗi Module/Rule với mã Yêu cầu (REQ-01, REQ-02...)
 3. Cross-check xem có yêu cầu nào bị thiếu trong danh sách phân rã
 4. Liệt kê High-Level Test Scenarios cho từng Module, tập trung:
@@ -123,7 +123,7 @@ Sử dụng skill này khi:
 **Mục đích:** Sinh test cases chi tiết theo chiến lược Risk-Based Testing.
 
 **Agent phải:**
-1. Đọc prompt template tại `plan/manual/05_rbt_and_tc_generation/prompt.txt`
+1. Đọc prompt template tại `plans/05_rbt_and_tc_generation/prompt.txt`
 2. Đánh giá Risk Level cho mỗi Module:
    - **High Risk:** Test kỹ, nhiều cases (nghiệp vụ quan trọng, liên quan tiền, bảo mật)
    - **Medium Risk:** Test vừa phải
@@ -165,7 +165,7 @@ Sử dụng skill này khi:
 **Mục đích:** Đóng gói test cases thành bảng Markdown chuẩn, sẵn sàng copy sang Excel/Jira.
 
 **Agent phải:**
-1. Đọc prompt template tại `plan/manual/06_template_mapping/prompt.txt`
+1. Đọc prompt template tại `plans/06_template_mapping/prompt.txt`
 2. Chuẩn hóa toàn bộ test cases vào bảng Markdown:
 
 ```
