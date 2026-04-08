@@ -37,7 +37,7 @@ Mỗi Test Case phải có đầy đủ:
 | **Expected Results** | Kết quả mong đợi tương ứng từng bước, **đánh số** |
 | **Test Data** | Dữ liệu cụ thể (xem quy tắc bên dưới) |
 | **Priority** | High / Medium / Low |
-| **Risk Level** | High / Medium / Low |
+
 
 ### 3. Quy tắc Test Data
 
