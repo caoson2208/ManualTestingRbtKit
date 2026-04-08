@@ -14,7 +14,7 @@
 1. Gửi file `prompt.txt` sau khi đã review test cases ở Bước 5.
 2. AI sẽ xuất bảng Markdown với format:
    ```
-   | TC ID | Module | Risk Level | Test Title | Pre-Condition | Test Steps | Expected Result | Priority | Test Data |
+   | TC ID | Module / Sub-module | Test Case Title | Pre-condition | Test Step | Test Data | Expected Result | Priority | Actual Result | Notes |
    ```
 3. Copy kết quả bảng → paste vào công cụ quản lý test.
 

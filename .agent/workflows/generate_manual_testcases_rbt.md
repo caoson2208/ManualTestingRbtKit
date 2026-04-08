@@ -57,7 +57,7 @@ Workflow này hướng dẫn agent thực hiện quy trình **AI-RBT (AI-Driven 
 
 1. Đọc prompt template: `plans/06_template_mapping/prompt.txt`
 2. Đóng gói toàn bộ test cases vào bảng Markdown chuẩn:
-   `| TC ID | Module | Risk Level | Test Title | Pre-Condition | Test Steps | Expected Result | Priority | Test Data |`
+   `| TC ID | Module / Sub-module | Test Case Title | Pre-condition | Test Step | Test Data | Expected Result | Priority | Actual Result | Notes |`
 3. Không được bỏ sót test case nào
 4. Xuất dưới dạng Artifact nếu dài
 

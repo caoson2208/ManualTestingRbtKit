@@ -13,7 +13,7 @@ Sinh Test Case chi tiết dựa trên chiến lược **Risk-Based Testing (RBT)
 
 1. Đảm bảo đã review và xác nhận scenarios ở Bước 4.
 2. Gửi file `prompt.txt` cho AI, tùy chỉnh phần `[Gợi ý]` nếu cần.
-3. AI sẽ sinh test cases đầy đủ: Title, Pre-condition, Steps, Expected Result, Test Data, Risk Level, Priority.
+3. AI sẽ sinh test cases đầy đủ: Title, Pre-condition, Steps, Expected Result, Test Data, Priority.
 4. Review kết quả → sang Bước 6.
 
 ## Mẹo quan trọng

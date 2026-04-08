@@ -16,7 +16,7 @@
 
 ## Bảng chuẩn cần có các cột sau:
 
-| TC ID | Module / Sub-module | Test Case Title | Pre-condition | Test Step | Test Data | Expected Result | Priority | Actual Result | Notes
+| TC ID | Module / Sub-module | Test Case Title | Pre-condition | Test Step | Test Data | Expected Result | Priority | Actual Result | Notes |
 
 ## Quy tắc khi lập bảng:
 

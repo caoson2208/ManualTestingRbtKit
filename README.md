@@ -124,7 +124,7 @@ Yêu cầu:
    Bạn đưa cho tôi 1 trang web không hề có tài liệu? Hãy chạy `/generate_requirements_from_website` trước. AI sẽ đi soi code và UI để viết requirement cho bạn. Sau đó kết hợp requirement vừa nhận được chạy vào luồng 6 bước này.
    
 4. **Copy Output Siêu Dễ Dàng** 
-   Kết quả của Bước 6 là một bảng Markdown định dạng chuẩn (ID, Module, Traceability, Steps, Code Test Data). Bạn chỉ cần copy bôi đen đoạn Markdown đó và dán thẳng vào Jira Excel / Google Sheets là bảng sẽ tự căn đúng cột.
+   Kết quả của Bước 6 là một bảng Markdown định dạng chuẩn (ID, Module, Pre-condition, Steps, Expected Result, Test Data...). Bạn chỉ cần copy bôi đen đoạn Markdown đó và dán thẳng vào Jira, Excel hay Google Sheets là bảng sẽ tự căn đúng cột.
 
 ---
 

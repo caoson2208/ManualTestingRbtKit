@@ -156,7 +156,7 @@ Sử dụng skill này khi:
 ✅ Đúng: "Nhập email: test_khachhang_01@domain.com"
 ```
 
-**Output:** Danh sách Test Cases chi tiết có Risk Level.
+**Output:** Danh sách Test Cases chi tiết.
 
 ---
 
@@ -169,7 +169,7 @@ Sử dụng skill này khi:
 2. Chuẩn hóa toàn bộ test cases vào bảng Markdown:
 
 ```
-| TC ID | Module | Risk Level | Test Title | Pre-Condition | Test Steps | Expected Result | Priority | Test Data |
+| TC ID | Module / Sub-module | Test Case Title | Pre-condition | Test Step | Test Data | Expected Result | Priority | Actual Result | Notes |
 ```
 
 3. Quy tắc bảng:
@@ -222,7 +222,7 @@ Tùy theo bước, agent xuất ra:
 | 2 | Luồng + Ambiguities + Câu hỏi Q&A |
 | 3 | Module Decomposition + Dependencies |
 | 4 | Traceability Matrix + High-Level Scenarios |
-| 5 | Test Cases chi tiết (Risk Level + Test Data) |
+| 5 | Test Cases chi tiết (có đánh giá rủi ro + Test Data) |
 | 6 | Bảng Markdown chuẩn (Jira/Excel ready) |
 
 Tất cả output phải bằng **Tiếng Việt**, format **Markdown**, sử dụng **Artifact** nếu nội dung dài.
