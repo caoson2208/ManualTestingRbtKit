@@ -19,10 +19,8 @@
 3. Copy kết quả bảng → paste vào công cụ quản lý test.
 
 ## Quy tắc TC ID
-
-Format mặc định: `[DỰ_ÁN]_[MODULE]_TC_[SỐ]`
-
-Ví dụ: `CRM_CUST_TC_001`, `CRM_LOGIN_TC_001`
+Format mặc định: `TC_[SỐ]`
+Ví dụ: `TC_01`, `TC_02`
 
 Nếu dự án có quy ước ID riêng, thay đổi trong phần `[Tùy chỉnh]` của prompt.txt.
 

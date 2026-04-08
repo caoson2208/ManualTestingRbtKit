@@ -19,7 +19,7 @@
 
 ### 1. Đánh giá rủi ro (Risk Assessment)
 
-Đánh giá **Risk Level** cho mỗi Module/Tính năng:
+Đánh giá **Risk Level** cho mỗi Module/Tính năng (đây là căn cứ chiến lược để AI quyết định độ bao phủ, không bắt buộc in ra bảng Final ở Bước 6):
 - **High Risk:** Nghiệp vụ cốt lõi, liên quan tiền/bảo mật, nhiều user phụ thuộc → Sinh nhiều test cases, test kỹ
 - **Medium Risk:** Tính năng quan trọng nhưng không critical → Test vừa phải
 - **Low Risk:** Tính năng phụ, ít ảnh hưởng → Test cơ bản, happy path
@@ -32,10 +32,10 @@ Mỗi Test Case phải có đầy đủ:
 |-------|---------|
 | **Module / Sub-module** | Tên module đã phân rã ở Bước 3 |
 | **Test Case Title** | Tiêu đề ngắn gọn, rõ mục đích |
-| **Pre-conditions** | Điều kiện tiên quyết trước khi test |
-| **Test Steps** | Các bước thực hiện, **đánh số thứ tự** |
-| **Expected Results** | Kết quả mong đợi tương ứng từng bước, **đánh số** |
+| **Pre-condition** | Điều kiện tiên quyết trước khi test |
+| **Test Step** | Các bước thực hiện, **đánh số thứ tự** |
 | **Test Data** | Dữ liệu cụ thể (xem quy tắc bên dưới) |
+| **Expected Result** | Kết quả mong đợi tương ứng từng bước, **đánh số** |
 | **Priority** | High / Medium / Low |
 
 

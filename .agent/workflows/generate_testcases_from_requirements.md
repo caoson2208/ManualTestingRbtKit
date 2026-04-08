@@ -1,10 +1,10 @@
 ---
 description: Generate manual test cases from requirements.
 skills:
-  - qa_automation_engineer
+  - rbt_manual_testing
 ---
 
-> **BẮT BUỘC (MANDATORY SKILL):** Bạn PHẢI nạp và đọc kỹ nội dung của skill **`qa-automation-engineer`** (tại `.agent/skills/qa_automation_engineer/SKILL.md`) trước khi bắt đầu thực hiện tác vụ này.
+> **BẮT BUỘC (MANDATORY SKILL):** Bạn PHẢI nạp và đọc kỹ nội dung của skill **`rbt_manual_testing`** (tại `.agent/skills/rbt_manual_testing/SKILL.md`) trước khi bắt đầu thực hiện tác vụ này.
 
 Generate manual test cases based on the provided requirement.
 
@@ -21,11 +21,7 @@ Include:
 - boundary cases
 - validation cases
 
-Output format:
+Output format (Markdown Table):
 
-Test Case ID  
-Title  
-Preconditions  
-Steps  
-Expected Result  
-Priority
+| TC ID | Module / Sub-module | Test Case Title | Pre-condition | Test Step | Test Data | Expected Result | Priority | Actual Result | Notes |
+|-------|---------------------|-----------------|---------------|-----------|-----------|-----------------|----------|---------------|-------|

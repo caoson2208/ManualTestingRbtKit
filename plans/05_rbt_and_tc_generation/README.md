@@ -7,7 +7,10 @@
 
 ## Mục đích
 
-Sinh Test Case chi tiết dựa trên chiến lược **Risk-Based Testing (RBT)**: rủi ro cao → test kỹ, rủi ro thấp → test cơ bản.
+Sinh Test Case chi tiết dựa trên chiến lược **Risk-Based Testing (RBT)**: rủi ro cao → test kỹ, rủi ro thấp → test cơ bản. 
+
+> [!NOTE]
+> **Risk Level** là công cụ chiến lược để AI quyết định độ bao phủ. Nó không nhất thiết phải xuất hiện trong bảng Mapping cuối cùng ở Bước 6.
 
 ## Cách sử dụng
 

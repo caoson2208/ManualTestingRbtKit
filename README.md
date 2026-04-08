@@ -13,7 +13,6 @@ ManualTestingRbtKit/
 ├── README.md                            ← File hướng dẫn chi tiết bạn đang đọc
 │
 ├── plans/                               ← Prompt templates cho từng bước
-│   ├── QUICK_START.md                   ← Hướng dẫn khởi động nhanh
 │   ├── 01_context_and_roleplay/
 │   │   ├── README.md
 │   │   └── prompt.txt                  
@@ -84,7 +83,7 @@ Yêu cầu:
 | **2** | Analysis & QnA | **Trả lời kỹ Q&A** | Phân tích điểm mơ hồ (ambiguity), hỏi bạn | ⏸️ **Bắt buộc AI đợi câu trả lời** |
 | **3** | Decomposition | Xem nhanh | Phân rã hệ thống thành Modules/Sub-modules | Review nhanh |
 | **4** | Traceability | **Bổ sung Scenario** | Map Module sang Scenario bậc cao | ⏸️ **Bắt buộc AI đợi đánh giá Risk** |
-| **5** | RBT & TC Generation | Xem Test Cases | Sinh Test Cases chi tiết theo Risk Level | Review |
+| **5** | RBT & TC Generation | Xem Test Cases | Sinh Test Cases dựa trên đánh giá rủi ro | Review |
 | **6** | Template Mapping | Lấy thành quả | Xuất bảng chuẩn | ✅ Hoàn thành! |
 
 ---
@@ -124,7 +123,7 @@ Yêu cầu:
    Bạn đưa cho tôi 1 trang web không hề có tài liệu? Hãy chạy `/generate_requirements_from_website` trước. AI sẽ đi soi code và UI để viết requirement cho bạn. Sau đó kết hợp requirement vừa nhận được chạy vào luồng 6 bước này.
    
 4. **Copy Output Siêu Dễ Dàng** 
-   Kết quả của Bước 6 là một bảng Markdown định dạng chuẩn (ID, Module, Pre-condition, Steps, Expected Result, Test Data...). Bạn chỉ cần copy bôi đen đoạn Markdown đó và dán thẳng vào Jira, Excel hay Google Sheets là bảng sẽ tự căn đúng cột.
+   Kết quả của Bước 6 là một bảng Markdown định dạng chuẩn (ID, Module, Pre-condition, Test Step, Test Data, Expected Result...). Bạn chỉ cần copy bôi đen đoạn Markdown đó và dán thẳng vào Jira, Excel hay Google Sheets là bảng sẽ tự căn đúng cột.
 
 ---
 

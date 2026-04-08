@@ -49,7 +49,7 @@ Workflow này hướng dẫn agent thực hiện quy trình **AI-RBT (AI-Driven 
 
 1. Đọc prompt template: `plans/05_rbt_and_tc_generation/prompt.txt`
 2. Đánh giá Risk Level (High/Medium/Low) cho mỗi Module
-3. Sinh test cases đầy đủ: Title, Pre-condition, Steps, Expected, Test Data, Priority
+3. Sinh test cases đầy đủ: Title, Pre-condition, Test Step, Test Data, Expected Result, Priority
 4. Test Data phải cụ thể (không placeholder chung)
 5. Nếu quá nhiều → sinh từng Module, hỏi user để tiếp tục
 

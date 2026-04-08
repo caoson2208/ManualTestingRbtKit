@@ -131,10 +131,10 @@ Sử dụng skill này khi:
 3. Sinh test case với đầy đủ fields:
    - Module / Sub-module
    - Test Case Title
-   - Pre-conditions
-   - Test Steps (đánh số)
-   - Expected Results (đánh số tương ứng)
+   - Pre-condition
+   - Test Step (đánh số)
    - Test Data (**phải cụ thể**, không dùng placeholder chung chung)
+   - Expected Result (đánh số tương ứng)
    - Priority
 4. Bao phủ đa dạng:
    - Happy Path
@@ -199,7 +199,7 @@ Sử dụng skill này khi:
 Các prompt template mẫu cho từng bước nằm tại:
 
 ```
-plan/manual/
+plans/
 ├── 01_context_and_roleplay/prompt.txt
 ├── 02_analysis_and_qna/prompt.txt
 ├── 03_decomposition/prompt.txt
